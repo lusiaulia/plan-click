@@ -1,0 +1,6 @@
+{
+  "name": "Birthday Plan",
+  "description": "Aplikasi interaktif sederhana untuk memilih waktu dan tempat perayaan ulang tahun.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
