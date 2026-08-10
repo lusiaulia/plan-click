@@ -51,7 +51,7 @@ export const Header: React.FC<HeaderProps> = ({
       {/* Subtitle & Editable Name */}
       <div className="text-base sm:text-lg text-gray-500 leading-relaxed font-medium">
         <p>
-          Haiii, kita mau rayain ultah{' '}
+          Haiii Mutt, kita mau rayain ultah kamuu{' '}
           {isEditingName ? (
             <input
               id="recipient-name-input"
