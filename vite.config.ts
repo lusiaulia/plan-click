@@ -6,6 +6,7 @@ import {defineConfig} from 'vite';
 export default defineConfig(() => {
   return {
     plugins: [react(), tailwindcss()],
+    base: '/plan-click/',
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
@@ -19,4 +20,6 @@ export default defineConfig(() => {
       watch: process.env.DISABLE_HMR === 'true' ? null : {},
     },
   };
+
+  
 });
