@@ -51,7 +51,7 @@ export const Header: React.FC<HeaderProps> = ({
       {/* Subtitle & Editable Name */}
       <div className="text-base sm:text-lg text-gray-500 leading-relaxed font-medium">
         <p>
-          Haiii Mutt, kita mau rayain ultah {' '}
+          Haiii, kita mau rayain ultah {' '}
           {isEditingName ? (
             <input
               id="recipient-name-input"
@@ -72,7 +72,7 @@ export const Header: React.FC<HeaderProps> = ({
               title="Klik untuk ubah nama"
               className="cursor-pointer text-pink-600 font-bold hover:underline decoration-pink-300"
             >
-              {recipientName || 'Mutii'}
+              {recipientName || 'Your Name'}
             </span>
           )}
           ! 🥳
